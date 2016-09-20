@@ -4,4 +4,4 @@ RUN wget https://github.com/zpeters/speedtest/releases/download/v1.0.2-c/speedte
 RUN chmod +x /speedtest-linux-amd64-v1.0.2-c
 ADD do.sh /do.sh
 RUN chmod +x /do.sh
-CMD /do.sh
+CMD "/do.sh"
